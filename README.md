@@ -1,6 +1,28 @@
-# Diabetes Diagnosis Classification
+# 🩺 Diabetes Diagnosis AI
 
-An end-to-end machine learning project that classifies patients into **Non-Diabetic (N)**, **Pre-Diabetic (P)**, or **Diabetic (Y)** based on demographic and lab-test data, with a deployed Streamlit prediction app.
+### Multi-Class Machine Learning Classifier for Early Diabetes Diagnosis
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+> **Diabetes Diagnosis AI** is an end-to-end Machine Learning platform that classifies patients into Non-Diabetic, Pre-Diabetic, or Diabetic based on demographic and lab-test data, with cleaning, exploratory analysis, model comparison, and an interactive Streamlit prediction app.
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Pipeline](#pipeline)
+- [Results](#results)
+- [How to Run](#how-to-run)
+- [Tech Stack](#tech-stack)
+- [Dataset](#dataset)
+
+---
 
 ## Overview
 
@@ -22,6 +44,7 @@ An end-to-end machine learning project that classifies patients into **Non-Diabe
 ├── final_diabetes_classification_model.pkl      # Trained model pipeline (generated)
 ├── label_encoder.pkl                            # Target label encoder (generated)
 ├── requirements.txt
+├── runtime.txt
 └── README.md
 ```
 
